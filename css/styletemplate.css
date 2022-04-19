@@ -1,0 +1,426 @@
+/* 443  became   */
+
+/*بداية التنسيقات الرئيسية*/
+
+body{color:#676767}
+.contaner{width:1170px;margin:auto}
+.clear{clear: both}
+
+/*نهاية التنسيقات الرئيسية*/
+
+/*بداية الهيدر*/
+
+.header
+{
+	
+}
+
+.header .slider
+{
+	height:600px;
+	background-image:url(../image/header.jpg);
+	background-size: cover;
+	text-align: center;
+	color:#fff;
+}
+
+.header .slider .intro{padding-top:250px;}
+
+
+.header .slider .intro h2
+{
+	width:400px;
+	font-size:40px;
+	font-weight:bold;
+	margin: 0 auto;
+	border-top:4px solid #fff;
+	border-bottom:4px solid #fff;
+}
+
+.header .slider .intro button
+{
+	background:none;
+	padding: 8px 25px;
+	margin-top:40px;
+	font-size:20px;
+	border:2px solid #fff;
+	color:#fff	
+}
+
+.header .navbar
+{
+	background-color:darkslategrey;
+	overflow:hidden;
+	color: #fff;
+}
+
+.header .navbar .logo
+{
+	text-transform: uppercase;
+	float:left;
+	font-weight:900;
+	font-size: 25px;
+	margin-top:15px;
+}
+
+.header .navbar .logo:first-letter{background-color:#777;margin: 15px 15px 0px 0px;padding: 5px 12px}
+
+
+.header .navbar .logo span {color: forestgreen}
+
+.header .navbar ul 
+{
+	list-style-type: none;
+	text-transform:uppercase;
+	overflow:hidden;
+	padding-left: 0px;
+	float:right;
+	font-weight: bold;
+}
+.header .navbar ul li
+{
+	
+	margin: 5px 15px;
+	float:left;
+	cursor:pointer
+}
+
+.header .navbar ul li a{text-decoration:none;color:#fff}
+
+.header .navbar ul li a:hover {color:forestgreen}
+
+
+
+.header .navbar ul li a:active {color:forestgreen}
+
+
+
+/*نهاية الهيدر*/
+
+/*بداية الياوت ((جسم الصفحة ))ا*/
+
+           /*home*/
+.home
+{
+	margin:70px 0px 80px 0px;   
+}
+.home .homeone 
+{
+	float:left;
+	width:33.333%;
+}
+
+.home .homeone h2{text-transform:uppercase;color:#444 }
+.home .homeone p{
+	text-transform:capitalize;
+	line-height:1.7;
+	padding:20px 40px 0px 0px;
+	text-align:justify;
+	color:#999 
+}
+
+
+
+                      /*about me*/
+
+.aboutme
+{
+	background-color:#f2f2f2;
+	height:600px;
+	overflow: hidden;
+}
+
+.aboutme .image
+{
+	width:40%;
+	height:600px;
+	float:left;
+   
+}
+
+.aboutme .image img{width:100%;height:100%;}
+
+.aboutme .letter
+{
+	float:left;
+	overflow: hidden;
+	width:60%; 
+}
+
+.aboutme .letter h2 {text-transform: uppercase;margin:50px 0px 0px 40px;color:#444}
+.aboutme .letter > p {font-size:20px;margin-left:40px;color:#999;line-height:1.7}
+
+.aboutme .letter .hopy
+{
+	overflow: hidden;
+	width: 45%;
+	float: left;
+	margin-left:20px
+}
+
+.aboutme .letter .margin{margin-left:40px}
+
+.aboutme .letter .hopy img {float:left;width:10%;margin:30px 10px 0px 0px;}
+
+.aboutme .letter .hopy .hopyone{float:left;width:85% }
+
+
+.aboutme .letter .hopy h3{
+	margin:15px 0px;
+	text-transform:uppercase;
+	font-weight:900;
+	font-size:20px;
+	color:#444
+}
+
+.aboutme .letter .hopy p {margin:0px;line-height:1.7;color:#999}
+
+
+                        /*skills*/
+
+.skills{
+	overflow:hidden;
+	margin-top:35px;
+}
+
+.skills .skillsone{float:left;width:50%}
+
+.skills .skillsone h2 {text-transform:uppercase;color:#444}
+
+.skills .skillsone p {text-align:justify;line-height:1.7;color:#999}
+
+.skills .skillsone button {
+	padding:10px 20px;
+	margin-top:20px;
+	border:3px solid forestgreen;
+	color:forestgreen;
+	font-weight:700;
+	background:none
+}
+
+.skills .skillstow{float:left;margin-left:5%;width:45%;margin-bottom:70PX; }
+
+.skills .skillstow h3 {text-transform:uppercase;color:#444}
+
+.skills .skillstow div {height:30px;background:#f2f2f2;width:100%}
+
+.skills .skillstow div span {
+	background:#090;
+	display:inline-block;
+	height:100%;
+	text-align:right;
+	color: #FFF;
+	font-weight:bold;
+	padding-top:10PX;
+}
+
+
+
+                  /*resume*/
+.resume
+{
+	padding:50px;
+	background:#f2f2f2;
+	overflow: hidden;
+	text-align:center;
+}
+
+.resume h2 {text-transform:uppercase;color:#444}
+
+.resume p{line-height:1.7;color:#999;padding:0px 70px}
+
+.resume button{
+	padding:10px 20px;
+	border:3px solid forestgreen;
+	color:forestgreen;
+	font-weight:700;
+	background:none;
+	text-transform:uppercase
+}
+
+           /*my education*/
+
+.myeducation{overflow:hidden}
+
+.myeducation hr {margin:40px 0px;border-top:1px solid #eee}
+
+.myeducation h2 {margin-top:70px;color:#444;text-transform:uppercase }
+
+.myeducation .myeducationone{width:50%;float:left;margin-right:5% }
+
+.myeducation .myeducationone > p {margin-bottom:30px;margin-top:0px }
+
+.myeducation .myeducationone p {line-height:1.7;color:#999}
+
+
+.myeducation .myeducationtow{width:45%;float:left}
+
+.myeducation .myeducationtow h3 {margin-top:0px;color:#444;text-transform:uppercase }
+
+.myeducation .myeducationtow p {line-height:1.7;color:#999}
+
+.myeducation .myeducationtow span {background:forestgreen;padding:4px 10px;color:#fff }
+
+
+                  /* hr e*/    
+.hr hr {margin:70px 0px;border-top:1px solid #eee}
+
+               /*work experience*/
+
+.workexperience{overflow: hidden}
+
+.workexperience hr {margin:40px 0px;border-top:1px solid #eee} 
+
+.workexperience h2 {color:#444;text-transform:uppercase}
+
+.workexperience .workexperienceone {width:50%;float:left;margin-right:5%} 
+
+.workexperience .workexperienceone > p {margin-bottom:30px;margin-top:0px }
+
+.workexperience .workexperienceone p {line-height:1.7;color:#999}
+
+
+.workexperience .workexperiencetow{width:45%;float: left} 
+
+.workexperience .workexperiencetow h3 {margin-top:0px;color:#444;text-transform:uppercase }
+
+.workexperience .workexperiencetow p {line-height:1.7;color:#999}
+
+.workexperience .workexperiencetow span {background:forestgreen;padding:4px 10px;color:#fff }
+
+.workexperience .workexperiencetow p:last-child {margin-bottom:70px}
+
+
+
+                     /*john stone*/
+.johnstone{background:#f2f2f2;overflow:hidden;text-align:center;padding:70px 0px}
+
+.johnstone q {
+	font-style:italic;
+	font-size:20px;
+	line-height:1.7;
+	color:#888
+}
+
+
+.johnstone h3 {
+	color:#444;
+	text-transform:uppercase;
+	margin:40px
+}
+
+.johnstone ul {
+	list-style-type:none;
+	text-align:center;
+	padding-left:0px
+}
+
+.johnstone ul li {
+	display:inline-block;
+	width:12px;
+	height:12px;
+	border:2px solid forestgreen;
+	margin-right:5px;
+	border-radius:50%
+}
+
+.johnstone ul .active {background:forestgreen;cursor:pointer}
+
+.johnstone ul li:hover {background:forestgreen;cursor:pointer}
+
+
+                 /*portfolio*/
+
+.portfolio{overflow: hidden;text-align: center;padding:70px 0px}
+
+.portfolio h2 {color:#444;text-transform:uppercase}
+
+.portfolio p {line-height:1.7;color:#999;margin:30px 0px}
+
+.portfolio .imges{margin-top:100px; }
+
+.portfolio .imges .imgesone{float: left;width:33.333333%; }
+
+.portfolio .imges .imgesone img {
+	width:90%;
+	margin:20px 0px;
+	border:2px solid #eee;
+	background:#fff;
+	padding:5px
+}
+
+                  /*contact me*/
+
+.contactme
+{
+	overflow: hidden;
+	background-color:#252f31;
+	padding:70px 0px;
+}
+
+.contactme .contactmeone{width:50%;float:left;padding-right:5%}
+
+.contactme .contactmeone h2 {color:#fff;text-transform:uppercase}
+
+.contactme .contactmeone p {line-height:1.7;color:#999;margin-bottom:30px}
+
+.contactme .contactmeone p strong {color:#fff}
+
+
+.contactme .form{width:45%;float:left;}
+
+.contactme .form label {
+	display:block;
+	margin:30px 0px 10px;
+	text-transform:capitalize;
+	color:#fff
+}
+
+.contactme .form input {width:80%;padding:10px;background-color:darkslategray;border:0}
+
+.contactme .form textarea {width:80%;padding:10px;background-color:darkslategray;border:0;height:250px}
+
+.contactme .form input[type="submit"] {
+	padding:12px 30px;
+	width:auto;
+	margin-top:30px;
+	color:#fff;
+	background:#191e22;
+	text-transform:uppercase;
+	font-weight:bold
+}
+
+
+/*هاية الياوت ((جسم الصفحة ))ا*/
+
+/*footer*/
+
+.footer
+{
+	text-align: center;
+	color: #fff;
+	background-color:#191e22;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.footer h3 {float: left;text-transform:uppercase;margin:8px 0px 0px}
+
+.footer ul {
+	list-style-type:none;
+	margin:0px;
+	float:right
+}
+
+.footer ul li {display:inline-block}
+
+
+.footer ul li img {width:30px;margin-right:5px}
+
+/* fremwork */
+
+
+
+
+
+
