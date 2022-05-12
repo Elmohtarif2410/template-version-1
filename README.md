@@ -1,1 +1,0 @@
-# template-version-1
